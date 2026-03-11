@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CityLibaraySystem.Models.Enums
 {
-    internal enum BookCopyStatus
+    public enum BookCopyStatus
     {
         Available,
         Borrowed,
