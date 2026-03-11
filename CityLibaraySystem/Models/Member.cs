@@ -8,7 +8,7 @@ namespace CityLibaraySystem.Models
 {
     public class Member : LibraryUser
     {
-        private int _counter = 1;
+        private static  int _counter = 1;
         public string MembershipId {  get; private  set; }
 
        public DateOnly? DateOfBirth { get; private set; }
