@@ -6,7 +6,7 @@ The system simulates the core operations of a city library, including managing b
 This project demonstrates the practical use of **OOP concepts such as inheritance, encapsulation, abstraction, and modular design** in building a simple yet structured library management solution.
 
 > ⚠️ **Note:** This project is also implemented as a **Class Library**, which can be referenced in other C# projects. You can include this library in your code using the repository:  
-> [City-Library-System Class Library](https://github.com/jasminemohammed1/City-Libaray-System.git)
+> [City-Library-System Class Library](https://github.com/jasminemohammed1/City_Library_System_Class_Library.git)
 ---
 
 ## 📖 Overview
