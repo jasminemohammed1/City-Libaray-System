@@ -58,7 +58,7 @@ namespace CityLibaraySystem.Models
             }
          if(Status != BookCopyStatus.Borrowed)
             {
-                throw new InvalidOperationException($"Copy {CopyId} is not currently borrowed.")
+                throw new InvalidOperationException($"Copy {CopyId} is not currently borrowed.");
             }
             ActiveTransaction.MarkReturned(DateOnly.FromDateTime(DateTime.Today));
             decimal fine = ActiveTransaction.CalculateFine();
