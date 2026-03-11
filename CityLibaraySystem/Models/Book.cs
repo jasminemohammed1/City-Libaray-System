@@ -19,7 +19,7 @@ namespace CityLibaraySystem.Models
         public string Category {  get; private set; }
 
 
-        public Book(string isbn, string authorName,string title,int publicationYear,string category)
+        public Book(string isbn,string title, string authorName, string category, int publicationYear)
         {
             ISBN = isbn;
             AuthorName = authorName;
@@ -27,7 +27,7 @@ namespace CityLibaraySystem.Models
             PublicationYear = publicationYear;
             Category = category;
         }
-        public Book( string isbn,string title) : this(isbn,"UnKnown",title,0,"General")
+        public Book( string isbn,string title) : this(isbn,title,"UnKnown","General",0)
         {
 
         }

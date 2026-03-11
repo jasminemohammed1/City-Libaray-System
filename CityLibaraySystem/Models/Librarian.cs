@@ -14,10 +14,10 @@ namespace CityLibaraySystem.Models
 
         public DateOnly HireDate { get; private set; }
 
-       public  Librarian(string librarianId, string name,decimal salay, DateOnly hireDate , string phone) : base (name, phone)
+        public Librarian(string librarianId, string name, decimal salary, DateOnly hireDate, string phone) : base(name , phone)
         {
             LibrarianId = librarianId;
-            Salary = salay;
+            Salary = salary;
             HireDate = hireDate;
         }
 
