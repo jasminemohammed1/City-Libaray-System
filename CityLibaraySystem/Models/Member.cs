@@ -26,6 +26,7 @@ namespace CityLibaraySystem.Models
 
         public Member(string name , string phone , DateOnly? dob, DateOnly memberShipDate, string? email) : base(name , phone)
         {
+            MembershipId = $"MEN-{_counter++:D3}";
             DateOfBirth = dob;
             MemberShipDate = memberShipDate;
             Email = email;
